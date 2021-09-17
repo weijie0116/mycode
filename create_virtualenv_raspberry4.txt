@@ -13,3 +13,5 @@ $ source ENV/bin/activate  #進入 ENV 環境
 
 $ deactivate  # 取消目前環境
 
+
+$ /home/pi/venvtest/ENV/bin/python -m pip install  #環境下pip 套件安裝
