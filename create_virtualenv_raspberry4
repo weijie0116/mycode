@@ -1,2 +1,10 @@
-$ sudo pip3 install virtualenv virtualenvwrapper
+$ sudo pip3 install virtualenv virtualenvwrapper   # 安裝venv
 
+
+$ virtualenv --version  # 查看venv版本
+
+$ mkdir venvtest && cd venvtest # 新增 venvtest(可改名) 的目錄&進入 venvtes 
+
+$ virtualenv ENV  # 安装python的隔离环境，python相关目录放在 ENV 文件夹 
+
+$ source ENV/bin/activate  #進入 ENV 環境
