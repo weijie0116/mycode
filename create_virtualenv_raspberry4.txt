@@ -20,8 +20,10 @@ $ git clone https://github.com/ultralytics/yolov5
 
 $ cd yolov5
 
-$ pip install -r requirements.txt
+$ pip install -r requirements.txt               #安裝所需環境
+
+$ python detect.py --source 0 --weights last.pt    #測試訓練好的模型   # --source 0 代表開啟攝影機
 
 
 
-#參考網址  https://zhuanlan.zhihu.com/p/92669002
+#參考網址  https://zhuanlan.zhihu.com/p/92669002   https://github.com/ultralytics/yolov5
