@@ -15,3 +15,10 @@ $ deactivate  # 取消目前環境
 
 
 $ /home/pi/venvtest/ENV/bin/python -m pip install  #環境下pip 套件安裝
+
+$ git clone https://github.com/ultralytics/yolov5
+
+$ cd yolov5
+
+$ pip install -r requirements.txt
+
