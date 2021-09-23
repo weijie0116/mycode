@@ -22,3 +22,6 @@ $ cd yolov5
 
 $ pip install -r requirements.txt
 
+
+
+#參考網址  https://zhuanlan.zhihu.com/p/92669002
