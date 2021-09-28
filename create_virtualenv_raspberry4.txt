@@ -9,7 +9,7 @@ $ virtualenv env                                        # 安装python的隔离�
 $ source env/bin/activate                               #進入 ENV 環境       $ deactivate                                              # 取消目前環境
 
 
-# 注意：激活后的提示符会有(ENV)字样，表示切换了python环境 
+# 注意：激活后的提示符会有(env)字样，表示切换了python环境 
 
 
 
