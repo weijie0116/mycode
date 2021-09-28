@@ -4,15 +4,14 @@ $ virtualenv --version                                  # 查看venv版本
 
 $ mkdir venvtest && cd venvtest                         # 新增 venvtest(可改名) 的目錄&進入 venvtes 
 
-$ virtualenv ENV                                        # 安装python的隔离环境，python相关目录放在 ENV 文件夹 
+$ virtualenv env                                        # 安装python的隔离环境，python相关目录放在 ENV 文件夹 
 
-$ source ENV/bin/activate                               #進入 ENV 環境       $ deactivate                                              # 取消目前環境
+$ source env/bin/activate                               #進入 ENV 環境       $ deactivate                                              # 取消目前環境
 
 
 # 注意：激活后的提示符会有(ENV)字样，表示切换了python环境 
 
 
-$ /home/pi/venvtest/ENV/bin/python -m pip install  #環境下pip 套件安裝
 
 $ git clone https://github.com/ultralytics/yolov5    #下載 GITHUB 上 YOLOV5 資料夾
 
